@@ -1,1 +1,1 @@
-# Baksan-compiler
+# Baksan-interpeter
