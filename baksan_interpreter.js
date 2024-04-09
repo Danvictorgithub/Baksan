@@ -7,7 +7,7 @@ class Interpreter {
   constructor() {
       // Regular expressions for language features
       this.arithmeticRegex = /^(\d+)(\s*[\+\-\*\/%]\s*\d+)+$/;; // 1. doing basic operations (+,-,*,/,%)
-      this.printRegex = /^print\s+['"](.*)['"]/;              // 2. prints a string or any pattern to the screen or file
+      this.printRegex = /^imprenta\s+['"](.*)['"]/;              // 2. prints a string or any pattern to the screen or file
       this.fileInputRegex = /^file_input\s+['"](.*)['"]/;     // 3. Uses data from a file as input
   }
 
@@ -31,6 +31,7 @@ class Interpreter {
       });
   }
 
+  // Checks if the line is in either valid regex and run the respective function
   interpretLine(line) {
       if (this.arithmeticRegex.test(line)) {
           this.evaluateArithmetic(line);
