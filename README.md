@@ -12,5 +12,6 @@ baksan "file"   (if installed globally)
 Syntax
 
 imprenta 'string'
+
 "num1" "operation" "num2"...
 
