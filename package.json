@@ -1,6 +1,6 @@
 {
   "name": "baksan",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "baksan_interpreter.js",
   "scripts": {
