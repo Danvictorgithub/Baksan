@@ -8,6 +8,6 @@ or npx baksan "file"
 
 Syntax
 
-imprinta 'string'
+imprenta 'string'
 "num1" "operation" "num2"...
 
