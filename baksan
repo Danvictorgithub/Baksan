@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+const Interpreter = require('./baksan_interpreter.js');
+
+// Example usage
+const interpreter = new Interpreter();
+
+if (process.argv.length < 3) {
+  console.error("Please provide a file name as argument");
+  process.exit(1);
+}
+
+const fileName = process.argv[2];
+interpreter.interpretFile(fileName);
