@@ -6,6 +6,9 @@ Installation
 npm install baksan -g
 or npx baksan "file"
 
+how to run:
+baksan "file"   (if installed globally)
+
 Syntax
 
 imprenta 'string'
